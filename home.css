@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lobster&family=Pacifico&display=swap');
+body {
+    background-color: #f8f5f2;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #cb1c5c;
+    font-family: "Lobster", sans-serif;
+}
+h4{
+    margin-left: 90%;
+    transition: transform 0.3s ease;
+
+}
+h4 a{
+    text-decoration: none;
+
+}
+h4:hover{
+    transform: scale(1.05);
+
+
+}
+
+.timeline {
+    position: relative;
+    margin: 10px auto;
+    width: 90%;
+}
+
+.event {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+
+}
+
+.event:hover {
+    transform: scale(1.05);
+}
+
+.photos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+
+.event img,video {
+    flex: 1 1 auto; /* Prevents images from shrinking */
+    max-width: 300px; /* Fixed width for uniformity */
+    height: 250px;
+    margin: 5px;
+    border-radius: 8px;
+    object-fit: contain;
+}
+
+
+.caption {
+    margin-top: 10px;
+    font-size: 1.5em;
+    line-height: 1.4;
+    color: black;
+    display: block;
+    font-family: "Dancing Script", cursive;
+}
+.caption::first-letter{
+    font-size: 1.7em;
+    color: #d47f6a;
+}
